@@ -2,7 +2,7 @@
 
 Let two or three running Claude Code sessions think through one question together, with this session as the facilitator.
 
-When you run several Claude Code sessions for different parts of your work, some decisions need what each of them knows. Asking them one by one gives you separate answers that never meet. A circle connects them with SendMessage and runs the discussion in a fixed order that has worked in practice:
+When you run several Claude Code sessions for different parts of your work, some decisions need what each of them knows. Asking them one by one gives you separate answers that never meet. A circle connects them with SendMessage and runs the discussion in a fixed order:
 
 - **Skeleton first.** The facilitator sends what must be decided, where the paths split, and the holes not yet filled — not a finished proposal. A finished proposal makes everyone hunt for flaws; a skeleton makes them fill holes.
 - **Views are light, the closing word is heavy.** Views can be sent any number of times with no format. Each session gives one closing word on the final proposal.
@@ -17,7 +17,7 @@ When you run several Claude Code sessions for different parts of your work, some
 3. You get a short report after each stage.
    - Example: `Stage 2 done: both sessions agree on the prefix; they disagree on plural names. Next: revise the skeleton.`
 4. At the end you get the layout and are asked whether the circle may close.
-   - Example: `ask the other sessions together whether we still need the old export script`
+   - Example: `Both sessions agree on the prefix; one still prefers singular names. Nobody checked the old clients. May I close the circle?`
 
 ## What it runs, stores, and sends
 
@@ -33,13 +33,16 @@ When you run several Claude Code sessions for different parts of your work, some
 
 ## 日本語
 
-動いている Claude Code の席を2つか3つ集めて、1つの問いを一緒に考えさせるスキルです。開いた席が進め役になります。
+動いている Claude Code の席（会話）を2つか3つ集めて、1つの問いを一緒に考えさせるスキルです。開いた席が進め役になります。
 
 - 最初に配るのは、出来上がった案ではなく骨格です（決めたいこと・分かれ目・まだ埋まっていない穴）。
 - 意見は形式なしで何度でも集め、骨格を直してから案にします。最後に各席から一言ずつもらいます。
 - 進め役は裁かず、おすすめもしません。合意点・相違点・誰も確かめていないことを並べます。
 - 段ごとに、頼んだ人へ結果を報告します。閉じる前に、頼んだ人の OK を待ちます。
 - 各回の返事は、言葉どおりに作業フォルダのファイルへ写します。席が閉じても消えません。
+- 同じパソコンの上で動いていて、SendMessage で届く席だけを呼べます。
+- 呼ぶ席は3つまでです。4つ以上のときは、進め役が先にあなたに聞きます。
+- 決まった順番で進める手順で、鍵ではありません。席が順番を破っても止める仕組みはありません。
 - インターネットへは何も送りません。動くのは Claude Code の中だけです。
 
 ## Questions and issues
