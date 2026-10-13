@@ -1,0 +1,11 @@
+{
+  "name": "session-circle",
+  "displayName": "Session Circle",
+  "version": "0.1.0",
+  "description": "Gather two or three running Claude Code sessions into one discussion: the facilitator sends a skeleton first, collects views, revises, and lays out agreements and disagreements without ruling. Your approval is asked before the circle closes.",
+  "author": {
+    "name": "Rurimpa"
+  },
+  "license": "MIT",
+  "keywords": ["multi-agent", "cross-session", "meeting", "deliberation", "japanese"]
+}
