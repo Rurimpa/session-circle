@@ -1,6 +1,6 @@
 ---
 name: session-circle
-description: Open a "circle": a discussion among two or three Claude Code sessions that are already running, connected with SendMessage. Use when the user says "open a circle", "ask the other sessions together", "get the other teams to decide this with us", "サークルミーティング", or "席を集めて聞いて". This session becomes the facilitator. It sends a skeleton (not a finished proposal), collects light views, revises, turns the skeleton into a proposal, and then lays out agreements, disagreements, and what nobody checked. It never rules or recommends, reports to the user after every stage, and waits for the user's OK before closing.
+description: Open a "circle," a discussion among two or three Claude Code sessions that are already running, connected with SendMessage. Use when the user says "open a circle", "ask the other sessions together", "get the other teams to decide this with us", "サークルミーティング", or "席を集めて聞いて". This session becomes the facilitator. It sends a skeleton (not a finished proposal), collects light views, revises, turns the skeleton into a proposal, and then lays out agreements, disagreements, and what nobody checked. It never rules or recommends, reports to the user after every stage, and waits for the user's OK before closing.
 ---
 
 # session-circle: let running sessions think together
